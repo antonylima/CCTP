@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#m{
+    background-color: green;
+    color: white;
+    height: fit-content;
+    padding: 1%
+}
+
+*{resize: none;
+    user-select: none;
+
+}
+
+td {
+    text-align: left;
+    border-bottom: 1px solid gray;
+}
+
+.tipo{
+    color: goldenrod;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.ts{
+    width: 50%;
+    color: gold;
+}
+
+
+@media screen and (orientation: portrait) {
+    #bt button{
+        display: none;
+    }
+
+    h2{
+        display: none;
+    }
+
+    #m, #mc{
+        width: 100% !important
+    }
+    
+}
+
+.invisivel{
+    visibility: hidden !important;
+}
