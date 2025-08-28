@@ -355,12 +355,12 @@ function App() {
       </div>
 
       {/* Card Display */}
-      "<div className=""absolute inset-0 flex items-center justify-center"">"
+      <div className=""absolute inset-0 flex items-center justify-center"">
 <div
 key={currentCard}
 className={`w-full h-full bg-gradient-to-br rounded-2xl shadow-2xl p-8 flex flex-col justify-center items-center text-center transform transition-all duration-500 ease-in-out`}
 id='mc'>
-"<div id='m' className="" bg-white/95 backdrop-blur-sm rounded-xl p-1 w-full h-full flex flex-col justify-center shadow-lg"">"
+<div id='m' className="" bg-white/95 backdrop-blur-sm rounded-xl p-1 w-full h-full flex flex-col justify-center shadow-lg"">
 {/* <span className={`text-1xl md:text-1xl font-bold tipo`}>
 {currentCardData.sigla}
 </span> */}
