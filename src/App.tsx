@@ -400,7 +400,7 @@ function App() {
                   </tr>
                   <tr>
                     <td>
-                      {currentCardData.vice_presidente[0]}
+                      {currentCardData.presidente[0].substring(0,currentCardData.presidente[0].indexOf(','))}
                     </td>
                     <td>
                       {currentCardData.vice_presidente[1]}
