@@ -48,13 +48,13 @@ td {
 
     #m{
         width: 100%;
-        border: 1px red solid    }
-}
+        border: 1px red solid
+    }
 
    #mc{
         width: 100%;
         border: 1px yellow solid
-}
+   }
 
 .invisivel{
     visibility: hidden !important;
