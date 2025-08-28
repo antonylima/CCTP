@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 #m{
     background-color: green;
     color: white;
@@ -16,7 +15,6 @@
 
 *{resize: none;
     user-select: none;
-
 }
 
 td {
@@ -29,7 +27,6 @@ td {
     font-weight: bold;
     text-align: center;
 }
-
 
 .ts{
     width: 50%;
@@ -49,6 +46,9 @@ td {
     }
     #m{
         width: 100%;
+        border: 1px red solid;
+    }
+    #mc{
         border: 1px red solid;
     }
 }
