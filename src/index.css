@@ -36,7 +36,6 @@ td {
     color: gold;
 }
 
-
 .invisivel{
     visibility: hidden !important;
 }
@@ -45,13 +44,10 @@ td {
     #bt button,#n{
         display: none;
     }
-
     h2{
         display: none;
     }
-    
     #m{
         width: 100%;
         border: 1px red solid;
     }
-}
