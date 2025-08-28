@@ -42,7 +42,7 @@ td {
         display: none;
     }
 
-    #m, #mc{
+    #mc{
         width:fit-content;
         max-width: 100%;
     }
