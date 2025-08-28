@@ -494,7 +494,7 @@ function App() {
           <span className="hidden sm:inline font-medium"></span>
         </button>
 
-        <div className="text-white font-mono text-xl">
+        <div id="n" className="text-white font-mono text-xl">
           {String(currentCard + 1).padStart(2, '0')}
         </div>
 
