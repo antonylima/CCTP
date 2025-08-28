@@ -42,7 +42,9 @@ td {
         display: none;
     }
 
-    #m, #mc{
+    #mc{
+        position: fixed;
+        top:0;
         width: 100%;
     }
     
