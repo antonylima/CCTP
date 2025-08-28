@@ -355,135 +355,134 @@ function App() {
       </div>
 
       {/* Card Display */}
-      <div className="relative w-full max-w-2xl h-96 mb-8">
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div
-            key={currentCard}
-            className={`w-full h-full bg-gradient-to-br rounded-2xl shadow-2xl p-8 flex flex-col justify-center items-center text-center transform transition-all duration-500 ease-in-out`}
-             id='mc'>
-            <div id='m' className=" bg-white/95 backdrop-blur-sm rounded-xl p-1 w-full h-full flex flex-col justify-center shadow-lg">
-              {/* <span className={`text-1xl md:text-1xl font-bold tipo`}>
-                {currentCardData.sigla}
-              </span> */}
-              <span className=''>
-                {currentCardData.comissao}
-              </span>
-              <table border={1}>
-                <thead>
-                  <tr>
-                    <th className='ts'>
-                      Titular
-                    </th>
-                    <th className='ts'>
-                      Suplente
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td colSpan={2} className='tipo px-4 py-1 border-b border-gray-200 bg-gray-100'>
-                      Presidente
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      {currentCardData.presidente[0]}
-                    </td>
-                    <td>
-                      {currentCardData.presidente[1]}
-                    </td>
-                  </tr>
-                  <tr>
-                    <td colSpan={2} className='tipo px-4 py-1 border-b border-gray-200 bg-gray-100'>
-                      Vice-Presidente
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      {currentCardData.presidente[0].substring(0,currentCardData.presidente[0].indexOf(','))}
-                    </td>
-                    <td>
-                      {currentCardData.vice_presidente[1]}
-                    </td>
-                  </tr>
-                  <tr>
-                    <td colSpan={2} className='tipo px-4 py-1 border-b border-gray-200 bg-gray-100'>
-                      Membros
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      {currentCardData.membro[0][0]}
-                    </td>
-                    <td>
-                      {currentCardData.membro[0][1]}
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      {currentCardData.membro[1][0]}
-                    </td>
-                    <td>
-                      {currentCardData.membro[1][1]}
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      {currentCardData.membro[2][0]}
-                    </td>
-                    <td>
-                      {
-                        currentCardData.membro[2][1]
-                      }
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      {currentCardData.membro[3][0]}
-                    </td>
-                    <td>
-                      {
-                        currentCardData.membro[3][1]
-                      }
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      {currentCardData.membro[4][0]}
-                    </td>
-                    <td>
-                      {
-                        currentCardData.membro[4][1]
-                      }
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      {currentCardData.membro[5][0]}
-                    </td>
-                    <td>
-                      {
-                        currentCardData.membro[5][1]
-                      }
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      {currentCardData.membro[6][0]}
-                    </td>
-                    <td>
-                      {
-                        currentCardData.membro[6][1]
-                      }
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      "<div className=""relative w-full max-w-2xl h-96 mb-8"">"
+"<div className=""absolute inset-0 flex items-center justify-center"">"
+<div
+key={currentCard}
+className={`w-full h-full bg-gradient-to-br rounded-2xl shadow-2xl p-8 flex flex-col justify-center items-center text-center transform transition-all duration-500 ease-in-out`}
+id='mc'>
+"<div id='m' className="" bg-white/95 backdrop-blur-sm rounded-xl p-1 w-full h-full flex flex-col justify-center shadow-lg"">"
+{/* <span className={`text-1xl md:text-1xl font-bold tipo`}>
+{currentCardData.sigla}
+</span> */}
+<span className=''>
+{currentCardData.comissao}
+</span>
+<table border={1}>
+<thead>
+<tr>
+<th className='ts'>
+Titular
+</th>
+<th className='ts'>
+Suplente
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colSpan={2} className='tipo px-4 py-1 border-b border-gray-200 bg-gray-100'>
+Presidente
+</td>
+</tr>
+<tr>
+<td>
+{currentCardData.presidente[0].substring(0,currentCardData.presidente[0].indexOf(','))}
+</td>
+<td>
+{currentCardData.presidente[1].substring(0,currentCardData.presidente[1].indexOf(','))}
+</td>
+</tr>
+<tr>
+<td colSpan={2} className='tipo px-4 py-1 border-b border-gray-200 bg-gray-100'>
+Vice-Presidente
+</td>
+</tr>
+<tr>
+<td>
+{currentCardData.vice_presidente[0].substring(0,currentCardData.vice_presidente[0].indexOf(','))}
+</td>
+<td>
+{currentCardData.vice_presidente[1].substring(0,currentCardData.vice_presidente[1].indexOf(','))}
+</td>
+</tr>
+<tr>
+<td colSpan={2} className='tipo px-4 py-1 border-b border-gray-200 bg-gray-100'>
+Membros
+</td>
+</tr>
+<tr>
+<td>
+{currentCardData.membro[0][0].substring(0,currentCardData.membro[0][0].indexOf(','))}
+</td>
+<td>
+{currentCardData.membro[0][1].substring(0,currentCardData.membro[0][1].indexOf(','))}
+</td>
+</tr>
+<tr>
+<td>
+{currentCardData.membro[1][0].substring(0,currentCardData.membro[1][0].indexOf(','))}
+</td>
+<td>
+{currentCardData.membro[1][1].substring(0,currentCardData.membro[1][1].indexOf(','))}
+</td>
+</tr>
+<tr>
+<td>
+{currentCardData.membro[2][0].substring(0,currentCardData.membro[2][0].indexOf(','))}
+</td>
+<td>
+{
+{currentCardData.membro[2][1].substring(0,currentCardData.membro[2][1].indexOf(','))}
+}
+</td>
+</tr>
+<tr>
+<td>
+{currentCardData.membro[3][0].substring(0,currentCardData.membro[3][0].indexOf(','))}
+</td>
+<td>
+{
+{currentCardData.membro[3][1].substring(0,currentCardData.membro[3][1].indexOf(','))}
+}
+</td>
+</tr>
+<tr>
+<td>
+{currentCardData.membro[4][0].substring(0,currentCardData.membro[4][0].indexOf(','))}
+</td>
+<td>
+{
+{currentCardData.membro[4][1].substring(0,currentCardData.membro[4][1].indexOf(','))}
+}
+</td>
+</tr>
+<tr>
+<td>
+{currentCardData.membro[5][0].substring(0,currentCardData.membro[5][0].indexOf(','))}
+</td>
+<td>
+{
+{currentCardData.membro[5][1].substring(0,currentCardData.membro[5][1].indexOf(','))}
+}
+</td>
+</tr>
+<tr>
+<td>
+{currentCardData.membro[6][0].substring(0,currentCardData.membro[6][0].indexOf(','))}
+</td>
+<td>
+{
+{currentCardData.membro[6][1].substring(0,currentCardData.membro[6][1].indexOf(','))}
+}
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
       {/* Navigation Controls */}
       <div id='bt' className="flex items-end space-x-6 mb-8">
         <button
