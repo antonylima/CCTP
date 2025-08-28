@@ -482,6 +482,7 @@ function App() {
             </div>
           </div>
         </div>
+{currentCardData.id}
       </div>
 
       {/* Navigation Controls */}
