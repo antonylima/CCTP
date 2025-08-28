@@ -43,8 +43,8 @@ td {
     }
 
     #m, #mc{
-        width:fit-content !important;
-        max-width: 100% !important;
+        width:fit-content;
+        max-width: 100%;
     }
     
 }
