@@ -42,9 +42,8 @@ td {
         display: none;
     }
 
-    #m{
-        width:fit-content;
-        max-width: 100%;
+    #m, #mc{
+        width: 100%;
     }
     
 }
