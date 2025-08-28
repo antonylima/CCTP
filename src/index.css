@@ -42,12 +42,14 @@ td {
         display: none;
     }
 
-    #mc{
-        position: fixed;
-        top:10%
+    #m{
         width: 100%;
-    }
-    
+        border: 1px red solid    }
+}
+
+   #mc{
+        width: 100%;
+        border: 1px red yellow    }
 }
 
 .invisivel{
