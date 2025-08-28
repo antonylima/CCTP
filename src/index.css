@@ -34,7 +34,7 @@ td {
 
 
 @media screen and (orientation: portrait) {
-    #bt button{
+    #bt button,#n{
         display: none;
     }
 
