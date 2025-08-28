@@ -485,7 +485,7 @@ function App() {
       </div>
 
       {/* Navigation Controls */}
-      <div id='bt' className="flex items-center space-x-6 mb-8">
+      <div id='bt' className="flex items-end space-x-6 mb-8">
         <button
           onClick={previousCard}
           className="flex items-center space-x-2 px-6 py-1 bg-white/10 hover:bg-white/20 text-white rounded-xl transition-all duration-200 backdrop-blur-sm border border-white/20 hover:border-white/40"
