@@ -348,8 +348,8 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex flex-col items-center justify-center p-3">
       {/* Header */}
-      <div className="w-full max-w-4xl mb-1">
-        <h2 className="text-3xl md:text-2xl font-bold text-white text-center mb-2">
+      <div className="w-full max-w-4xl mb-8">
+        <h2 className="text-3xl md:text-2xl font-bold text-white text-center mb-8">
           Comissões Técnicas
         </h2>
       </div>
