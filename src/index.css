@@ -50,5 +50,6 @@ td {
     }
     #mc{
         border: 1px red solid;
+        padding: 0px;
     }
 }
