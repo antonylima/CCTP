@@ -508,7 +508,7 @@ function App() {
       </div>
 
       {/* Card Dots Indicator */}
-      <div className="flex flex-wrap justify-center gap-2 max-w-4xl">
+      <div id="dt" className="flex flex-wrap justify-center gap-2 max-w-4xl">
         {cards.map((_, index) => (
           <button
             key={index}
