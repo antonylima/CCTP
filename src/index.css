@@ -37,6 +37,10 @@ td {
 }
 
 
+.invisivel{
+    visibility: hidden !important;
+}
+
 @media screen and (orientation: portrait) {
     #bt button,#n{
         display: none;
@@ -50,8 +54,4 @@ td {
         width: 100%;
         border: 1px red solid;
     }
-}
-
-.invisivel{
-    visibility: hidden !important;
 }
