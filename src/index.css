@@ -38,12 +38,12 @@ td {
 }
 
 @media screen and (orientation: portrait) {
-    #bt button,#n{
+/*     #bt button,#n{
         margin-bottom:2%;
     }
     h2{
         margin-top:2%;
-    }
+    } */
     #dt{
         display: none;
     }
