@@ -39,17 +39,15 @@ td {
 
 @media screen and (orientation: portrait) {
     #bt button,#n{
-        display: none;
+        bottom:2%
     }
-    h2{
+    #dt{
         display: none;
     }
     #m{
         width: 100%;
-        border: 1px red solid;
     }
     #mc{
-        border: 1px red solid;
         padding: 0px;
     }
 }
