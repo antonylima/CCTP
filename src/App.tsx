@@ -344,22 +344,22 @@ function App() {
   const progress = ((currentCard + 1) / cards.length) * 100;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex flex-col items-center justify-center p-3">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex flex-col items-center justify-center p-1">
       {/* Header */}
-      <div className="w-full max-w-4xl mb-1">
-        <h2 className="text-3xl md:text-2xl font-bold text-white text-center mb-2">
+      <div className="w-full max-w-4xl mb-12">
+        <h2 className="text-3xl md:text-2xl font-bold text-white text-center mb-12">
           Comissões Técnicas
         </h2>
       </div>
 
       {/* Card Display */}
-      <div className="relative w-full max-w-2xl h-96 mb-8">
+      <div className="relative w-full max-w-2xl h-96 mb-12">
         <div className="absolute inset-0 flex items-center justify-center">
           <div
             key={currentCard}
             className={`w-full h-full bg-gradient-to-br rounded-2xl shadow-2xl p-1 flex flex-col justify-center items-center text-center transform transition-all duration-500 ease-in-out`}
             id='mc'>
-            <div id='m' className=" bg-white/95 backdrop-blur-sm rounded-xl p-1 w-full h-full flex flex-col justify-center shadow-lg">
+            <div id='m' className="  bg-white/95 backdrop-blur-sm rounded-xl p-1 w-full h-full flex flex-col justify-center shadow-lg">
               {/* <span className={`text-1xl md:text-1xl font-bold tipo`}>
 {currentCardData.sigla}
 </span> */}
@@ -482,7 +482,7 @@ function App() {
       </div>
 
       {/* Navigation Controls */}
-      <div id='bt' className="flex items-center space-x-6 mb-3">
+      <div id='bt' className="flex items-center space-x-6 mb-6">
         <button
           onClick={previousCard}
           className="flex items-center space-x-2 px-6 py-1 bg-white/10 hover:bg-white/20 text-white rounded-xl transition-all duration-200 backdrop-blur-sm border border-white/20 hover:border-white/40"
