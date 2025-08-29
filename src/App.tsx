@@ -57,7 +57,7 @@ function App() {
       'Indústria, Desenvolvimento Econômico e Comércio',
       'Infância e Adolescência',
       'Juventude',
-      'Meio Ambiente e Desenvolvimento do Semiárido',
+      'Meio Ambiente, Mudanças Climáticas e Desenvolvimento do Semiárido',
       'Orçamento, Finanças e Tributação',
       'Previdência Social e Saúde',
       'Proteção Social e Combate à Fome',
